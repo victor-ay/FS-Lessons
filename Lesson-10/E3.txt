@@ -1,0 +1,7 @@
+﻿1. In this exercise you are going to implement the improved version of E1 exercise. At the first stage, you need to add to your code the ability to receive multiple names for nationality detection (for example, separated by comma). At this stage, you should still run your code in one thread. Try passing 10 names and log how much time it takes to get the results for all the names.
+
+
+2. Next, rewrite the code using multithreading and ThreadPoolExecutor to improve the performance of your code. Log the run time and compare the results with previous version of your code when running it on 10 names.
+
+
+3. Create a txt file with 100 different names (search in google for file like this or api that provides list of names), get the nationalities for the names and store the pairs of name and nationality in a new file. Don't forget to handle failures and exceptions that might occur both in the main thread and inside worker threads as well. Try running both versions of your code - single threaded and multi threaded. Compare run time. Tune the amount of executor workers such that the performance will be the best, and make sure you don't get blocked by the servers you are sending requests to because of too many simultaneous requests from the same ip.
