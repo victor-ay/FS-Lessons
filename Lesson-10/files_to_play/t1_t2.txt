@@ -1,0 +1,2 @@
+text from txt1
+text from txt2
